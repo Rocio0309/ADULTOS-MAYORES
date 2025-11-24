@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Adultez y Adulto Mayor</title>
+
+  <style>
+    :root{
+      --morado:#6a0dad;
+      --lila:#efe3ff;
+    }
+
+    body{
+      margin:0;
+      font-family:Arial, Helvetica, sans-serif;
+      background:#f6edff;
+      color:#2c043d;
+    }
+
+    .layout{
+      display:grid;
+      grid-template-columns:220px 1fr 200px;
+      gap:14px;
+      max-width:1200px;
+      margin:20px auto;
+      padding:0 12px;
+    }
+
+    @media(max-width:900px){
+      .layout{grid-template-columns:1fr}
+    }
+
+    header{
+      grid-column:1/-1;
+      background:var(--morado);
+      color:white;
+      padding:16px;
+      border-radius:12px;
+      text-align:center;
+    }
+
+    main{
+      background:white;
+      padding:16px;
+      border-radius:12px;
+      box-shadow:0 2px 6px rgba(0,0,0,0.08);
+    }
+
+    aside{
+      background:#ede0ff;
+      padding:14px;
+      border-radius:12px;
+      box-shadow:0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    h1,h2,h3{margin-top:0}
+
+    nav a{
+      display:block;
+      margin:6px 0;
+      color:var(--morado);
+      text-decoration:none;
+      font-weight:bold;
+    }
+
+    nav a:hover{text-decoration:underline}
+
+    .video-container{
+      margin-top:20px;
+      text-align:center;
+    }
+
+    video{
+      width:100%;
+      max-width:300px;
+      border-radius:12px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    .btn{
+      display:inline-block;
+      padding:10px 16px;
+      background:var(--morado);
+      color:white;
+      text-decoration:none;
+      border-radius:8px;
+      margin-top:16px;
+    }
+
+    footer{
+      grid-column:1/-1;
+      text-align:center;
+      font-size:13px;
+      color:#4b007d;
+      margin-top:10px;
+    }
+  </style>
+</head>
+
+<body>
+<div class="layout">
+
+  <header>
+    <h1>CONOCE MÁS SOBRE LA ADULTEZ</h1>
+    <p>Dignidad, experiencia y sabiduría en cada etapa de la vida</p>
+  </header>
+
+  <aside>
+    <h3>Secciones</h3>
+    <nav>
+      <a href="#adultez">¿Qué es la adultez?</a>
+      <a href="#cambios">Cambios en la vejez</a>
+      <a href="#importancia">Importancia social</a>
+      <a href="#video">Video</a>
+      <a href="#recursos">Información extra</a>
+    </nav>
+    <hr>
+    <p style="font-size:13px">La vejez no es el final, es la cosecha de toda una vida.</p>
+  </aside>
+
+  <main>
+
+    <section id="adultez">
+      <h2>¿Qué es la adultez?</h2>
+      <p>
+        La adultez es una etapa de madurez donde la persona consolida su identidad,
+        valores, experiencia y responsabilidad en la sociedad.
+      </p>
+      <p>
+        La vejez representa sabiduría, memoria y guía para las nuevas generaciones.
+      </p>
+    </section>
+
+    <section id="cambios">
+      <h2>Cambios en la vejez</h2>
+      <ul>
+        <li><b>Físicos:</b> disminución de fuerza, cambios en movilidad y visión.</li>
+        <li><b>Emocionales:</b> necesidad de acompañamiento, respeto y comprensión.</li>
+        <li><b>Cognitivos:</b> gran experiencia y memoria emocional.</li>
+        <li><b>Sociales:</b> inclusión e integración en la comunidad.</li>
+      </ul>
+    </section>
+
+    <section id="importancia">
+      <h2>Importancia del adulto mayor</h2>
+      <p>
+        Los adultos mayores son pilares fundamentales de la sociedad.
+        Su experiencia sostiene generaciones.
+      </p>
+    </section>
+
+    <section id="video">
+      <h2>Video sobre la adultez</h2>
+      <div class="video-container">
+        <video src="V1.mp4" controls></video>
+      </div>
+      <p style="font-size:14px;text-align:center;">
+       
+      </p>
+    </section>
+
+    <section id="recursos">
+      <h2>Información extra</h2>
+      <p>
+        Envejecer con dignidad implica salud, respeto, amor y compañía.
+      </p>
+      <p>
+        La inclusión del adulto mayor fortalece el tejido social.
+      </p>
+    </section>
+
+    <!-- NUEVAS SECCIONES AGREGADAS -->
+    <section id="nuevainfo">
+      <h2>Etapas de la adultez</h2>
+      <p>
+        La adultez se divide en varias fases importantes que reflejan cambios físicos,
+        mentales y sociales:
+      </p>
+      <ul>
+        <li><b>Adultez temprana (20-40 años):</b> construcción de proyectos de vida, trabajo y relaciones.</li>
+        <li><b>Adultez media (40-60 años):</b> estabilidad laboral, reflexión personal y cambios físicos progresivos.</li>
+        <li><b>Adultez avanzada (60+ años):</b> etapa de retiro, transmisión de conocimiento y experiencia.</li>
+      </ul>
+    </section>
+
+    <section id="salud">
+      <h2>Salud en la adultez mayor</h2>
+      <p>
+        Cuidar la salud en la adultez es fundamental para mantener una buena calidad de vida.
+        Algunos aspectos clave incluyen:
+      </p>
+      <ul>
+        <li>Alimentación balanceada y adecuada.</li>
+        <li>Actividad física moderada y constante.</li>
+        <li>Atención a la salud mental y emocional.</li>
+        <li>Controles médicos periódicos.</li>
+      </ul>
+    </section>
+
+    <section id="apoyo">
+      <h2>Importancia del apoyo familiar y social</h2>
+      <p>
+        El adulto mayor necesita sentirse acompañado, valorado y respetado.
+        El cariño de la familia y la inclusión social mejoran su bienestar emocional.
+      </p>
+      <p>
+        La sociedad debe promover espacios seguros, accesibles y dignos
+        donde las personas mayores puedan convivir, expresarse y mantenerse activas.
+      </p>
+    </section>
+
+    <section id="derechos">
+      <h2>Derechos del adulto mayor</h2>
+      <p>
+        Las personas adultas mayores tienen derecho a:
+      </p>
+      <ul>
+        <li>Vivir con dignidad y respeto.</li>
+        <li>Acceso a servicios de salud.</li>
+        <li>Participación social activa.</li>
+        <li>Protección contra el abandono y la discriminación.</li>
+      </ul>
+    </section>
+
+    <a href="ADULTOS.html" class="btn">⬅ Volver a inicio</a>
+
+  </main>
+
+  <aside>
+    <h3>Frase</h3>
+    <p><b>Senectia</b>: cuando los años vuelven sabio al corazón.</p>
+  </aside>
+
+  <footer>
+    <p>© 2025 CECYTEM</p>
+  </footer>
+
+</div>
+</body>
+</html>
